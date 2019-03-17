@@ -1,0 +1,28 @@
+$mainColor: #EE337C;
+$gray-color: #ddd;
+$medium-up: 600px;
+$large-up: 1000px;
+$global-radius: 6px;
+html,body,#app,.h100{
+  height: 100%;
+}
+body{
+  font-family: 'Arial', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.container{
+  width: 1024px;
+  margin: 0 auto;
+}
+.d-flex{
+  display: flex;
+}
+.btn{
+  color: $mainColor;
+  border: 1px solid $mainColor;
+
+  border-radius: 6px;
+  background: #fff;
+  font-size: 18px;
+}
